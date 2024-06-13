@@ -24,7 +24,7 @@ const App = () => {
     let config = {
       method: 'post',
       maxBodyLength: Infinity,
-      url: 'http://localhost:8000/api/v1/upload',
+      url: 'https://file-uploader-backend-delta.vercel.app/api/v1/upload',
       headers: {
         'Content-Type': 'multipart/form-data'
       },
